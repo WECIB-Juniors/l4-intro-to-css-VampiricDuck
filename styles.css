@@ -2,13 +2,45 @@
 /* Comments look like this. */
 
 /* This ruleset defines the styling for the entire body of your HTML document. */
+
 body {
     /* Change this background-color. */
-    background-color: white;
-}
+    background-color: #5E297D;
+    color: aquamarine;
+    
 
+}
+button {
+    background-color: #359C46;
+}
 /* This defines styling for all your p elements */
 
 p {
+    color: #FF4040;
+    font-size: xx-small;
+}
 
+a{
+    color: peru;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+li{
+    background-color: black;
+    font-style: italic;
+}
+
+ol{
+    background-color: black;
+    opacity: 0.5;
+}
+ul{
+    background-color: black;
+    opacity: 0.7;
+    box-shadow: #FF4040 10px 10px 5px;
+}
+footer{
+    background-color: blue;
+    text-shadow: #359C46 2px 2px 5px;
 }
